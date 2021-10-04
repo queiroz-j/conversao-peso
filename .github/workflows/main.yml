@@ -27,7 +27,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            jcqueiroz/conversao-peso:latest
+            jcqueiroz/conversao-peso:v1
             jcqueiroz/conversao-peso:${{ github.run_number }} 
   CD:
     needs: [CI]
